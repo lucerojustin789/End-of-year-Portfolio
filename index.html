@@ -14,25 +14,28 @@
 
 <nav>
     <ul>
-        <li><a href="assignment1.html">Assignment 1</a></li>
-        <li><a href="assignment2.html">Assignment 2</a></li>
-        <li><a href="assignment3.html">Assignment 3</a></li>
-      
+       <a href="javascript:void(0)" onclick="showAssignment(1)">Assignment 1</a>
+       <a href="javascript:void(0)" onclick="showAssignment(2)">Assignment 2</a>
+        <li><a href="#" onclick="showAssignment(3)">Assignment 3</a></li>
     </ul>
 </nav>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        Hello! My name is [Your Name]. This portfolio contains
-        five assignments showcasing my work and skills.
-    </p>
-</section>
-
+<main>
+    <section id="content" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is [Your Name]. Click an assignment above
+            to view my work.
+        </p>
+    </section>
+</main>
 <footer>
-    <p>&copy; 2025 My Portfolio</p>
+    
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
+
+
+<script src="project.js"></script>
